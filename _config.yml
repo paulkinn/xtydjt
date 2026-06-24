@@ -1,0 +1,62 @@
+# Site
+title: 香港生活通
+subtitle: 专注香港本地生活资讯
+description: 提供香港天气、交通、美食、旅游等实用信息
+keywords: 香港,香港生活,香港资讯,香港天气,香港旅游
+author: 香港生活通
+language: zh-CN
+timezone: Asia/Hong_Kong
+
+# URL
+url: https://www.xtydjt.cn
+root: /
+permalink: :title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
+# Home page setting
+index_generator:
+  path: ''
+  per_page: 12
+  order_by: -date
+
+# Category & Tag
+default_category: 综合
+category_map:
+tag_map:
+
+# Date / Time format
+date_format: YYYY-MM-DD
+time_format: HH:mm
+
+# Pagination
+per_page: 12
+pagination_dir: page
+
+# Extensions
+theme: landscape
+
+# Deployment
+deploy:
+  type: ''
