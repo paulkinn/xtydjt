@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Disallow sensitive paths
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.github/
+Disallow: /themes/
+Disallow: /source/_posts/
+Disallow: /scripts/
+Disallow: /_config.yml
+Disallow: /package.json
+
+# Sitemap
+Sitemap: https://www.xtydjt.cn/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Common settings
+User-agent: Googlebot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
